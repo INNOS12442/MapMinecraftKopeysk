@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    --padding-body: .5rem
+}
+
+body>* {
+    margin: var(--padding-body);
+}
+
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid black;
+    padding: 1em;
+    margin: 1em 2em;
+}
+
+.hello_section__img {
+    --width-img: calc(var(--padding-body) * 4);
+    border: 1px solid black;
+    width: calc(100vw - (var(--width-img)));
+    height: calc((100vw / 1.6) - var(--width-img));
+}
+.carousel-item > img{
+    max-height: 75vh;
+}
