@@ -14,7 +14,9 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+
+    height: 100vh;
 
     border-bottom: 1px solid black;
     padding: 1em;
