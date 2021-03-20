@@ -20,9 +20,8 @@ section {
     justify-content: center;
     /* align-items: center; */
 
-    height: 100vh;
-
-    border-bottom: 1px solid black;
+    height: 50vh;
+    
     padding: 1em;
     margin: 1em 2em;
 }
